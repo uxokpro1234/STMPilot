@@ -4,6 +4,7 @@ import jakarta.mail.Authenticator;
 import jakarta.mail.PasswordAuthentication;
 
 public class MailAuthenticator extends Authenticator {
+    
     private final String username;
     private final String password;
     
